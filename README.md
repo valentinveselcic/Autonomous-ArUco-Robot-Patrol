@@ -86,7 +86,7 @@ ros2 launch rosbot3_nav navigation.launch.py map:=$(ros2 pkg prefix rosbot3_nav)
 ### 3. Launch Marker Spawner, Detector & Autonomous Patroller
 Spawns the ArUco markers in Gazebo, starts the OpenCV pose estimation node, and initiates the autonomous patrol FSM:
 ```bash
-ros2 launch amr_lv4 lv.launch.py
+ros2 launch aruco_partroller_task lv.launch.py
 ```
 
 ### Monitoring & Debugging
